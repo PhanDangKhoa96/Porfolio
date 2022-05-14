@@ -2,7 +2,7 @@ const resolve = require('path').resolve
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'e-commerce',
+    title: 'Porfolio',
     htmlAttrs: {
       lang: 'en',
     },
@@ -16,10 +16,10 @@ export default {
   },
   srcDir: resolve(__dirname, 'src'),
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['@/assets/styles/global.less', 'boxicons/css/boxicons.min.css'],
+  css: ['boxicons/css/boxicons.min.css', 'remixicon/fonts/remixicon.css', '@/assets/styles/porfolio/global.less'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '@/plugins/vue-carousel.js', ssr: false }, { src: "@/plugins/request.js" }],
+  plugins: [{ src: '@/plugins/vue-carousel.js', ssr: false }, { src: "@/plugins/request.js" }, { src: '@/plugins/scroll-reveal.js', ssr: false }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -45,15 +45,12 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-
   styleResources: {
     // your settings here
     sass: [],
     scss: [],
     less: [
-      '@/assets/styles/base.less',
-      '@/assets/styles/variables.less',
-      '@/assets/styles/mixins.less',
+      '@/assets/styles/porfolio/config/_variables.less', '@/assets/styles/porfolio/theme/_theme.less',
     ],
     stylus: [],
   },
