@@ -1,0 +1,156 @@
+// API endpoint
+
+https://6283c01b92a6a5e46228b5dc.mockapi.io/api/:endpoint
+
+// PROFILE
+[
+ {
+  "name": "Khoa Phan",
+  "avatar": "https://i.ibb.co/0fddyJN/avatar.jpg",
+  "profession": "Front-end Developer",
+  "social": [
+   {
+    "icon": "ri-linkedin-box-line",
+    "link": "https://www.linkedin.com/in/phan-khoa-b5820311a/"
+   },
+   {
+    "link": "https://github.com/kurapikachu",
+    "icon": "ri-github-fill"
+   }
+  ],
+  "info": [
+   {
+    "name": "Years of Work",
+    "indicator": "1.5"
+   },
+   {
+    "name": "Solved bugs and other issues",
+    "indicator": "+400"
+   }
+  ],
+  "id": "1"
+ }
+]
+
+// FILTER
+[
+    {
+     "button": [
+      {
+       "name": "projects",
+       "component": "projects"
+      },
+      {
+       "name": "skills",
+       "component": "skills"
+      }
+     ],
+     "id": "1"
+    }
+   ]
+
+//PROJECTS
+[
+    {
+     "title": "Headphone landing page",
+     "subtitle": "HTML/CSS/JS",
+     "image": "https://i.im.ge/2022/05/21/rxReKL.jpg",
+     "url": "https://phandangkhoa96.github.io/headphoneLandingPage/"
+    },
+    {
+     "title": "Halloween page",
+     "subtitle": "HTML/CSS/JS",
+     "image": "https://i.im.ge/2022/05/21/rxRGwc.jpg",
+     "url": "https://phandangkhoa96.github.io/HalloweenPage"
+    },
+    {
+     "title": "title 1",
+     "subtitle": "subtitle 1",
+     "image": "https://i.im.ge/2022/05/21/rxRnp0.jpg",
+     "url": "url 1"
+    },
+    {
+     "title": "title 1",
+     "subtitle": "subtitle 1",
+     "image": "https://i.im.ge/2022/05/21/rxRJAW.jpg",
+     "url": "url 1"
+    },
+    {
+     "title": "title 1",
+     "subtitle": "subtitle 1",
+     "image": "https://i.im.ge/2022/05/21/rxRB2T.jpg",
+     "url": "url 1"
+    }
+   ]
+
+// Skills
+[
+    {
+      "name": "Front End Developer",
+      "type": "front-end",
+      "detail": [
+        {
+          "name": "HTML",
+          "level": "Advanced"
+        },
+        {
+          "name": "CSS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "SaSS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Javascript",
+          "level": "Intermediate"
+        },
+        {
+          "name": "VueJS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "NuxtJS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Ant Design",
+          "level": "Intermediate"
+        },
+        {
+          "name": "TailwindCSS",
+          "level": "Intermediate"
+        },
+        {
+          "name": "TypeScript",
+          "level": "Basic"
+        }
+      ]
+    },
+    {
+      "name": "Tools and other techniques",
+      "type": "tool",
+      "detail": [
+        {
+          "name": "Git",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Agile/Scrum",
+          "level": "Intermediate"
+        },
+        {
+          "name": "RestAPI",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Figma",
+          "level": "Intermediate"
+        },
+        {
+          "name": "Docker",
+          "level": "Basic"
+        }
+      ]
+    }
+  ]

@@ -1,11 +1,11 @@
 import BaseModel from "../BaseModel"
 
-export default class Product extends BaseModel {
+export default class Profile extends BaseModel {
     getResource() {
-        return '/products'
+        return '/profile'
     }
 
-    getAllProducts() {
+    getProfile() {
         return this.$request.get(this.getResource())
     }
 }
