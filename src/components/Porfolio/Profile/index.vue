@@ -45,16 +45,6 @@
           <p class="profile__info-description" v-html="item.name"></p>
         </div>
       </div>
-
-      <div class="profile__buttons" v-scroll-reveal="{ delay: 800 }">
-        <a
-          download=""
-          href="~assets/resume/Phan-Le-Dang-Khoa-CV.pdf"
-          class="button"
-        >
-          Download CV <i class="ri-download-line"></i>
-        </a>
-      </div>
     </div>
   </header>
 </template>
