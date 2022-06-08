@@ -10,6 +10,7 @@
           target="_blank"
           :href="project.url"
           class="projects__button button button__small"
+          :class="{ disabled: project.url === 'unknow' }"
         >
           <i class="ri-link"></i>
         </a>
@@ -75,6 +76,11 @@ export default {
   }
   &__button {
     padding: 0.5rem;
+
+    &.disabled {
+      pointer-events: none;
+      background-color: gray;
+    }
   }
 }
 </style>
